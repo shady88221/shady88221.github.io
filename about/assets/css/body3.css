@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Body start here */
+.about a
+{
+  color:rgb(240, 42, 24);
+}
+
+.name a {
+  color:rgb(240, 42, 24);
+}
+
+
+
+
+.container{
+  margin-top:10%;
+  margin-bottom: 5%;
+  padding-left:10%;
+  padding-right:10%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+
+.title
+{
+  font-family: Quicksand, sans-serif;
+  font-weight: lighter;
+  font-size: 220%;
+  color: rgb(69, 69, 69);
+  margin-bottom: 1.5%;
+}
+
+.content
+{
+  font-family: quicksand,sans-serif;
+  font-size: 100%;;
+  line-height: 150%;
+  color: rgb(103, 103, 103);
+  padding-right: 0;
+  margin-bottom: 2%;
+  flex:0 0 34%;
+}
+
+
+  .button{
+    height: 60px;
+    width:100%;
+    border-radius: 3px;
+    cursor: pointer;
+    border: solid 1px red;
+    color:red;
+    background-color:transparent;
+  }
+
+
+
+.selfie{
+  max-width: 85%;
+}
+
+
+
+.col1of2
+{
+  flex:0 0 45%;
+}
+
+.container2{
+  margin-top:70%;
+  margin-bottom:25%;
+  padding-left:7%;
+  padding-right:7%;
+}
+
+
+
+.contenttitle1{
+  font-size: 200%;
+  margin: 0;
+}
+
+
+
+
+.contenttitle2{
+  font-size: 180%;
+}
+
+
+
+
+
+
+
+/*body end*/
+
+
+
+
+
+
+/* Media section  */
+
+
+
+
+/* 6 */
+
+@media (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-min-device-pixel-ratio : 2){
+
+
+
+  .col1of2
+  {
+    flex:0 0 90%;
+  }
+
+
+  .content
+  {
+    font-family: quicksand,sans-serif;
+    font-size: 60%;;
+    line-height: 140%;
+    color: rgb(103, 103, 103);
+    padding-right: 0.2%;
+    padding-left: 0.2%;
+    margin-bottom: 1%;
+    flex:0 0 90%;
+  }
+
+
+  .button{
+    height: 60px;
+    width:100%;
+    border-radius: 3px;
+    cursor: pointer;
+    border: solid 1px red;
+    color:red;
+    line-height: 120%;
+    background-color:transparent;
+  }
+
+
+  .contenttitle1{
+    margin-top: 5%;
+  }
+
+
+  .contenttitle2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+/* 6+ */
+@media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3){
+
+
+
+
+
+
+  .col1of2
+  {
+    flex:0 0 90%;
+  }
+
+
+  .content
+  {
+    font-family: quicksand,sans-serif;
+    font-size: 60%;;
+    line-height: 140%;
+    color: rgb(103, 103, 103);
+    padding-right: 0.2%;
+    padding-left: 0.2%;
+    margin-bottom: 1%;
+    flex:0 0 90%;
+  }
+
+
+  .button{
+    height: 60px;
+    width:100%;
+    border-radius: 3px;
+    cursor: pointer;
+    border: solid 1px red;
+    color:red;
+    line-height: 120%;
+    background-color:transparent;
+  }
+
+
+
+
+  .contenttitle1{
+    margin-top: 5%;
+  }
+
+
+  .contenttitle2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+
+
+
+}
+
+
+
+
+
+/* Media section  */

@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Quicksand, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.titlebar a {
+  color: rgba(136, 136, 136, 0.7);
+}
+
+/* Menu start here */
+
+.logo {
+  max-width: 20%;
+  flex: 0 0 45%;
+}
+
+.insta {
+  max-width: 45%;
+  opacity: 0.6;
+}
+
+.titlebar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin: 7%;
+}
+
+.left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex: 0 0 65%;
+}
+
+.name {
+  flex: 0 0 20%;
+  margin-left: 5%;
+  font-size: 110%;
+  font-weight: lighter;
+  color: rgb(240, 42, 24);
+}
+
+.description {
+  flex: 0 0 35%;
+  font-size: 90%;
+  color: rgba(136, 136, 136, 0.7);
+}
+
+.right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-size: 85%;
+  flex: 0 0 35%;
+}
+
+.work {
+  flex: 0 0 30%;
+}
+
+.work:hover a {
+  color: rgb(240, 42, 24);
+  cursor: pointer;
+}
+
+.about {
+  flex: 0 0 30%;
+}
+
+.about:hover a {
+  color: rgb(240, 42, 24);
+  cursor: pointer;
+}
+
+.contact {
+  flex: 0 0 30%;
+}
+
+.contact:hover a {
+  color: rgb(240, 42, 24);
+  cursor: pointer;
+}
+
+
+.inslink {
+  flex: 0 0 10%;
+}
+
+.inslink:hover a {
+  cursor: pointer;
+}
+
+
+/*menu*/

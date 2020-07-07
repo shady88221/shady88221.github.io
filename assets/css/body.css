@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Body start here */
+
+.sizing
+{
+  max-width: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+
+.container
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 8%;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 10%;
+  position: absolute;
+  top:25%;
+}
+
+.col1of2
+{
+  flex:0 0 44%;
+  margin: 3%;
+
+}
+
+
+/*hover*/
+
+.sizing:hover
+{
+  opacity: 0.022;
+}
+
+
+.title_wrapper {
+  position: relative;
+}
+
+.title {
+  height: 100%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, 0%);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*hover ends*/
+
+p {
+  margin: 0;
+  font-size: 150%;
+  color: rgb(240, 42, 24);
+  font-weight: lighter;
+  z-index: -1;
+  text-align: center;
+}
+
+
+.istd1
+{
+ position: relative;
+ top:-8vh;
+}
+
+
+.iddesign1
+{
+  position: relative;
+  top:-8vh;
+}
+
+.logodesign1
+{
+  position: relative;
+  top:-8vh;
+}
+
+.app1
+{
+  position: relative;
+  top:-8vh;
+}
+
+.posterf1
+{
+  position: relative;
+  top:-8vh;
+}
+
+.posterc1
+{
+  position: relative;
+  top:-8vh;
+}
+
+.fanzine1
+{
+  position: relative;
+  top:-8vh;
+}
+
+.project81
+{
+  position: relative;
+  top:-8vh;
+}
+
+
+.copyright
+{
+  position: fixed;
+  bottom: 1%;
+  left:1%;
+  font-family: Quicksand, sans-serif;
+  font-size: 66%;
+  color:rgba(255, 0, 0, 1);
+  z-index: -1;
+}
+
+
+
+.time
+{
+  position: fixed;
+  bottom: 1%;
+  right:1%;
+  font-family: Quicksand, sans-serif;
+  font-size: 66%;
+  color:rgba(255, 0, 0, 0.62);
+}
+
+
+
+
+/*Js class*/
+
+.motion
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*iphone6*/
+@media (min-device-width : 375px) and (max-device-width : 667px){
+  .container
+  {
+    top:6%;
+    margin-bottom: 35%;
+  }
+
+  p {
+    margin: 0;
+    font-size: 1%;
+    color: rgba(0, 0, 0, 0);
+    font-weight: lighter;
+    z-index: -1;
+    text-align: center;
+  }
+
+  .copyright
+  {
+    font-size: 45%;
+  }
+
+
+
+  .time
+  {
+    font-size: 45%;
+  }
+
+
+ }
+
+/*iphone6+*/
+@media (min-device-width : 414px) and (max-device-width : 736px){
+  .container
+  {
+    top:6%;
+    margin-bottom: 35%;
+  }
+
+
+  p {
+    margin: 0;
+    font-size: 1%;
+    color: rgba(0, 0, 0, 0);
+    font-weight: lighter;
+    z-index: -1;
+    text-align: center;
+  }
+
+
+  .copyright
+  {
+    font-size: 45%;
+  }
+
+
+
+  .time
+  {
+    font-size: 45%;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body end*/

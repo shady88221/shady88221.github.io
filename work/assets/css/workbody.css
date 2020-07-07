@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+.work a
+{
+  color:rgb(240, 42, 24);
+}
+
+.name a {
+  color:rgb(240, 42, 24);
+}
+
+/* Body start here */
+
+
+.container
+{
+  margin-top:10%;
+  margin-bottom: 5%;
+  padding-left:7%;
+  padding-right: 7%;
+}
+
+.title
+{
+  font-family: Quicksand, sans-serif;
+  font-weight: lighter;
+  font-size: 220%;
+  color: rgb(240, 42, 24);
+  margin-bottom: 1.5%;
+}
+
+.content
+{
+  font-family: quicksand,sans-serif;
+  font-size: 100%;;
+  line-height: 150%;
+  color: rgb(103, 103, 103);
+  padding-right: 45%;
+  margin-bottom: 15%;
+}
+
+
+
+.display
+{
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.sample1
+{
+  flex:0 0 100%;
+  margin-bottom: 12%;
+}
+
+.sample2
+{
+  flex:0 0 100%;
+  margin-bottom: 12%;
+}
+
+.sample3
+{
+  flex:0 0 100%;
+  margin-bottom: 12%;
+}
+
+.sample4
+{
+  flex:0 0 100%;
+  margin-bottom: 12%;
+}
+
+.sample5
+{
+  flex:0 0 100%;
+  margin-bottom: 12%;
+}
+
+.sample6
+{
+  flex:0 0 100%;
+  margin-bottom: 12%;
+}
+
+.sample7
+{
+  flex:0 0 100%;
+  margin-bottom: 12%;
+}
+
+.sample8
+{
+  flex:0 0 100%;
+
+}
+
+.line
+{
+  margin-top: 15%;
+  margin-left: 10%;
+  margin-right: 10%;
+  opacity: 0.2
+}
+
+
+.icon
+{
+  margin-top:1.5%;
+  max-width: 4%;
+
+}
+
+
+
+.samplecred
+{
+  flex:0 0 100%;
+  margin-bottom: 6%;
+}
+
+
+
+
+.iconspaceleftbottom
+{
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body end*/

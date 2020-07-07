@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Body start here */
+
+
+* {
+  box-sizing: border-box;
+}
+
+.contact a
+{
+  color:rgb(240, 42, 24);
+}
+
+.name a {
+  color:rgb(240, 42, 24);
+}
+
+.content a{
+color: rgb(103, 103, 103);
+}
+
+/* Body start here */
+
+
+.container
+{
+  margin-top:10%;
+  margin-bottom: 5%;
+  padding-left:10%;
+  padding-right: 10%;
+}
+
+.title
+{
+  font-family: Quicksand, sans-serif;
+  font-weight: lighter;
+  font-size: 220%;
+  color: rgb(69, 69, 69);
+  margin-bottom: 1.5%;
+}
+
+.content
+{
+  font-family: quicksand,sans-serif;
+  font-size: 100%;;
+  line-height: 150%;
+  color: rgb(103, 103, 103);
+  padding-right: 45%;
+  margin-bottom: 15%;
+}
+
+
+
+
+.line
+{
+  margin-top: 15%;
+  opacity: 0.5
+}
+
+
+.icon
+{
+  margin-top:1.5%;
+  max-width: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*body end*/
+
+
+
+
+/* media section */
+
+
+
+
+
+
+
+/* 6 */
+
+@media (min-device-width : 375px) and (max-device-width : 667px) and (-webkit-min-device-pixel-ratio : 2){
+
+  .title
+  {
+    font-size: 170%;
+  }
+
+  .content
+  {
+    font-size: 80%;;
+  }
+
+
+}
+
+
+
+
+
+
+
+/* 6+ */
+@media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3){
+
+
+
+  .title
+  {
+    font-size: 170%;
+  }
+
+  .content
+  {
+    font-size: 80%;;
+  }
+
+
+}
+
+
+
+
+
+/* Media section  */
